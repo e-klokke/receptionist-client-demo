@@ -83,12 +83,13 @@ function cancelVoice(){if(voiceSupported)window.speechSynthesis.cancel();activeS
 function updateControls(){
   const total=FLOWS[flowKey].steps.length, complete=finished;
   el('play').textContent=playing?'Pause demo':complete?'Replay demo':'Play demo';
-  el('step-count').textContent=`${Math.max(0,index+1)} / ${total}`;
+  el('step-count').textContent=`Step ${Math.max(0,index+1)} of ${total}`;
   const progress=(index+1)/total*100;
   el('progress').setAttribute('aria-valuenow',Math.round(progress));
   el('progress').firstElementChild.style.width=`${progress}%`;
   el('wave').classList.toggle('active',playing&&!complete);
-  el('call-status').textContent=complete?'Demo complete':playing?'Demo playing':'Paused';
+  el('call-status').textContent=complete?'Preview complete':playing?'Preview playing':'Paused';
+  const speaking=el('now-speaking').parentElement;if(speaking)speaking.hidden=complete;
   el('next').disabled=index===total-1;
 }
 function renderOutcome(){

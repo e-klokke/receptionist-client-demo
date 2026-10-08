@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 135 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Bay Answer by Sino Technology Solutions</title><desc id="desc">Built in Tampa. Interactive AI receptionist preview: booking, text follow-up, owner handoff, and Spanish. Hear it live at (656) 230-1590.</desc>
+<rect width="1200" height="900" fill="#f8f8f2"/>
+<rect x="48" y="48" width="1104" height="804" rx="26" fill="#f8f8f2" stroke="#d6e1ce" stroke-width="2"/>
+<rect x="88" y="160" width="66" height="66" rx="17" fill="#276750"/>
+<text x="121" y="206" text-anchor="middle" font-family="Georgia,serif" font-size="47" fill="#ffffff">B</text>
+<text x="175" y="197" font-family="Georgia,serif" font-size="42" fill="#243c2b">Bay Answer</text>
+<text x="175" y="230" font-family="Arial,sans-serif" font-size="23" fill="#5a7054">by Sino Technology Solutions · Built in Tampa</text>
+<rect x="888" y="166" width="220" height="44" rx="22" fill="#eaf1e3" stroke="#c6d5ba"/>
+<text x="998" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#42673c">INTERACTIVE PREVIEW</text>
+<text x="88" y="323" font-family="Georgia,serif" font-size="64" fill="#243c2b">A clear next step</text>
+<text x="88" y="395" font-family="Georgia,serif" font-size="64" font-style="italic" fill="#276750">for your callers.</text>
+<text x="90" y="443" font-family="Arial,sans-serif" font-size="25" fill="#61745b">Explore an AI receptionist experience for your business.</text>
+<g font-family="Arial,sans-serif">
+<rect x="88" y="475" width="497" height="90" rx="15" fill="#eef3e8" stroke="#d9e3d0"/>
+<circle cx="130" cy="520" r="22" fill="#dce8d3"/><text x="130" y="527" text-anchor="middle" font-size="20" fill="#376333">01</text><text x="172" y="529" font-size="29" fill="#304e32">Booking</text>
+<rect x="607" y="475" width="497" height="90" rx="15" fill="#eef3e8" stroke="#d9e3d0"/>
+<circle cx="649" cy="520" r="22" fill="#dce8d3"/><text x="649" y="527" text-anchor="middle" font-size="20" fill="#376333">02</text><text x="691" y="529" font-size="29" fill="#304e32">Text follow-up</text>
+<rect x="88" y="574" width="497" height="90" rx="15" fill="#eef3e8" stroke="#d9e3d0"/>
+<circle cx="130" cy="619" r="22" fill="#dce8d3"/><text x="130" y="626" text-anchor="middle" font-size="20" fill="#376333">03</text><text x="172" y="628" font-size="29" fill="#304e32">Owner handoff</text>
+<rect x="607" y="574" width="497" height="90" rx="15" fill="#eef3e8" stroke="#d9e3d0"/>
+<circle cx="649" cy="619" r="22" fill="#dce8d3"/><text x="649" y="626" text-anchor="middle" font-size="20" fill="#376333">04</text><text x="691" y="628" font-size="29" fill="#304e32">Spanish</text>
+</g>
+<line x1="88" y1="690" x2="1104" y2="690" stroke="#d5e0cb"/>
+<text x="88" y="739" font-family="Arial,sans-serif" font-size="31" font-weight="bold" fill="#276750">Hear it live: (656) 230-1590</text>
+<text x="1104" y="738" text-anchor="end" font-family="Arial,sans-serif" font-size="19" fill="#62785a">Preview uses fictional sample data</text>
+</svg>
