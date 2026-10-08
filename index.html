@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bayside · Receptionist client demo</title>
+  <link rel="stylesheet" href="styles.css"><script src="demo.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="#"><span class="brand-icon">B</span>BAYSIDE<span class="brand-detail">AUTO DETAIL</span></a><span class="simulation"><i></i> SIMULATION · CLIENT DEMO</span></header>
+<main>
+  <section class="intro"><div><div class="eyebrow">A BETTER FIRST IMPRESSION</div><h1>Every call.<br><em>Taken care of.</em></h1><p>A receptionist that keeps the conversation moving. <br>Explore a booking, a text follow-up, or a handoff to your team.</p></div><aside class="business"><span class="eyebrow">TAMPA, FL · EASTERN TIME</span><strong>Bayside Auto Detail</strong><p>Mon–Fri 8am–6pm · Sat 9am–2pm<br>Closed Sunday · No vehicle pickup</p><div><span>Exterior wash <b>$40</b></span><span>Full detail <b>$180</b></span><span>Ceramic consultation <b>Free</b></span></div></aside></section>
+  <section class="demo" aria-label="Interactive receptionist simulation">
+    <div class="guide"><div><span class="eyebrow">YOUR GUIDED WALKTHROUGH</span><p id="guide-caption" aria-live="polite">See how a caller moves from a question to a clear next step. Every action in this tour is simulated.</p><small id="narration-status" role="status">Autoplay is silent. Start narration to hear the guide and sample conversations.</small></div><button id="narrated" class="primary">▶ Start narrated demo</button></div>
+    <div class="toolbar"><div class="flows" role="group" aria-label="Choose a call scenario"><button data-flow="booking" class="selected">01 <span>Book a visit</span></button><button data-flow="sms">02 <span>Send a text</span></button><button data-flow="transfer">03 <span>Talk to the owner</span></button><button data-flow="spanish">04 <span>En español</span></button></div><span id="step-count">1 / 9</span></div>
+    <div class="workspace"><section class="conversation"><div class="panel-title"><span>THE CONVERSATION</span><span id="language">ENGLISH</span></div><div class="call-meta"><span class="avatar">ML</span><div><strong id="caller">Marcus Lee</strong><small>Fictional caller · sample conversation</small></div><span class="call-status" id="call-status">Demo ready</span></div><div id="transcript" role="log" aria-label="Call transcript" aria-live="polite"></div><div class="speaking"><div id="wave" class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span id="now-speaking">Ready to play</span></div></section><section class="outcome"><div class="panel-title"><span>WHAT HAPPENS NEXT</span><span class="dot"></span></div><div id="outcome-content"></div><div class="event-title">CALL ACTIVITY <span>SIMULATED</span></div><ol id="events" aria-live="polite"></ol></section></div>
+    <div class="controls"><div><button id="play" class="primary">Pause demo</button><button id="restart" class="secondary">↻ Restart</button><button id="next" class="secondary">Next step →</button><button id="tour" class="secondary">Play all flows</button></div><label class="sound"><input id="sound" type="checkbox"> Voice narration <span id="sound-note">Optional</span></label><div id="progress" role="progressbar" aria-label="Scenario progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div></div>
+  </section>
+  <footer><p><b>See the workflow, without making a call.</b> This scripted demo uses fictional names, dates, availability, and a reserved example phone number. No appointments, texts, or transfers are sent. Narration uses bundled synthetic audio; a device voice may be used if an audio file cannot play.</p><span>CLIENT PREVIEW<br><b>Not a live production system</b></span></footer>
+</main>
+</body></html>
